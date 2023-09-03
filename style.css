@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
+    background:  hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-family: "roboto";
+}
+body div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 15px;
+}
+#image {
+    padding: 0px;
+    margin: 10px;
+}
+div div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    padding: 0px;
+    margin: 20px;
+    margin-top:30px ;
+    background-color: white;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+}
+input{
+    width: 340px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+form{
+    padding: 0px;
+    margin-top: 10px;
+}
+label{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 7.5px;
+    font-weight: bold;
+}
+#submit{
+    background: hsl(235, 18%, 26%);
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(235, 18%, 26%);
+    font-weight: bold;
+}
+#submit:hover{
+    background: -o-linear-gradient(right, hsl(4, 100%, 67%),hsl(15, 100%, 67%),orange);
+    background: -moz-linear-gradient(right, hsl(4, 100%, 67%),hsl(15, 100%, 67%),orange);
+    background: -webkit-linear-gradient(left, hsl(4, 100%, 67%),hsl(15, 100%, 67%),orange);
+    background: linear-gradient(to right,hsl(4, 100%, 67%),hsl(15, 100%, 67%),orange);
+    border-color: rgba(255, 255, 255, 0);
+}
+#email{
+    background-color: hsl(0, 0%, 100%);
+    width: 316.8px;
+    margin-top: 0px;
+    padding-left: 20px;
+    color: hsl(231, 7%, 60%);
+    border-color: hsl(231, 7%, 60%);
+}
+/*#email:{
+    border:1px solid hsl(231, 7%, 60%);
+}
+*/#email:active{
+    border-color: rgba(175, 0, 0, 1);
+}
+    
+
+#im-list{
+    padding-right: 10px;
+    width: 15px;
+}
+span{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 7.5px;
+    font-weight: bold;
+    float: right;
+}
